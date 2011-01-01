@@ -1,0 +1,50 @@
+p {
+  margin-bottom: 0.08in;
+}
+pre {
+  font-family: "Times New Roman";
+}
+body {
+  background-color: blue;
+  font-family: Arial,Helvetica,sans-serif;
+}
+#Container {
+  height: 1100px;
+  width: 900px;
+  background-color: #fdfdfd;
+}
+#Nav {
+  color: #00ff00;
+  width: 100%;
+  background-color: black;
+  height: 25px;
+}
+#Content {
+  background-color: #cccccc;
+  width: 96%;
+  height: auto;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 50px;
+}
+#Nav li {
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#Nav a:link {
+  color: #ffffff;
+}
+#Nav a:visited {
+  color: #fdfdfd;
+}
+#Nav a:hover {
+  color: #fd5010;
+}
+#Nav a:active {
+  color: #fdfdfd;
+}
+td {
+  background-color: #ffffff;
+  width: 155px;
+}
