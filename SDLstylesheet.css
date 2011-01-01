@@ -12,6 +12,7 @@ body {
   height: 1100px;
   width: 900px;
   background-color: #fdfdfd;
+margin:0 auto;
 }
 #Nav {
   color: #00ff00;
