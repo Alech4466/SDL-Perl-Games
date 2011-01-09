@@ -5,13 +5,13 @@ pre {
   font-family: "Times New Roman";
 }
 body {
-  background-color: blue;
+  background-color: #9999CC;
   font-family: Arial,Helvetica,sans-serif;
 }
 #Container {
   height: 1100px;
   width: 900px;
-  background-color: #fdfdfd;
+  background-color: #FFFFFF;
 margin:0 auto;
 }
 #Nav {
@@ -21,14 +21,19 @@ margin:0 auto;
   height: 25px;
 }
 #Content {
-  background-color: #cccccc;
+  background-color: #7A7ABC;
   width: 96%;
-  height: 400px;
+  height: 700px;
   margin-right: 2%;
   margin-left: 2%;
-  margin-top: 50px;
+  margin-top: 10px;
 border: solid 1px #000;
 }
+#Content p {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
 #Nav li {
   display: inline;
   padding-right: 10px;
@@ -55,29 +60,74 @@ td {
   background-color: #ffffff;
   width: 155px;
 }
+table {
+	width: 100%;
+	margin: 0 auto;
+}
+.bannerPadding {
+	padding-top: 10px;
+}
+
+#Container #Content table {
+	width: 100%;
+}
+
 
 #LeftColumn {
 width: 60%;
 float:left;
-height:300px;
-background-color:orange;
+height:450px;
+background-color:#A2A4BB;
 margin-left:2%;
 }
+#LeftColumn img {
+	margin: 5px 5px 10px 5px;
+	text-align: center;
+}
+
 
 
 #RightColumn {
 width:30%;
 float:right;
-height:300px;
-background-color:green;
+height:450px;
+background-color:#999CB7;
 margin-right:2%;
 }
+#RightColumn img {
+	margin: 10px auto 10px;
+}
 
-#h1 {
-padding-left:20px;
+
+h1 {
+	padding-left:20px;
 }
 
 .paddingLeft {
 padding-left:20px;
 }
+#LeftColumn p {
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #344483;
+}
 
+#Content a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#Content a:visited {
+	color: #fdfdfd;
+	text-decoration: none;
+}
+
+#Content a:hover {
+	color: #FF8040;
+	text-decoration: underline;
+}
+
+#Content a:active {
+	color: #fdfdfd;
+	text-decoration: none;
+}
